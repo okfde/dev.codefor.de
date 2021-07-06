@@ -1,9 +1,6 @@
 ---
 title: Projekte
-menu: 
-  main:
-    weight: 40
-    name: Projekte
+
 outputs:
 - html
 - json

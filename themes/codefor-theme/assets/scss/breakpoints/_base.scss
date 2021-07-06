@@ -284,7 +284,14 @@ nav.navbar{
   }
 }
 
-
+.langSwitch  {
+  margin-right: 3rem;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+}
+}
 
 
 //---------------------------------------------------
@@ -404,7 +411,7 @@ footer{
     }
   }
   details {
-    & > summary::-webkit-details-marker {
+    & > summary::marker {
       display: none;
     }
     & > summary .open-close {

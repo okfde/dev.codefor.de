@@ -17,11 +17,11 @@
       <ul class="navbar-nav justify-content-around mr-3 mt-4 mt-lg-0">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        {{if ne .Weight 0}}
-        <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
-            <a class="nav-link px-3" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
+          {{if ne .Weight 0 }}
+          <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+              <a class="nav-link px-3" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>

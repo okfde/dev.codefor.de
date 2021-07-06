@@ -1,9 +1,5 @@
 ---
 title: Mitmachen
-menu:
-  main:
-    weight: 20
-    name: Mitmachen
 ---
 {{< headline-icon icon="icon-bracket.svg" >}}
 

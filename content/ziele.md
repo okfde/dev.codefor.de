@@ -1,9 +1,5 @@
 ---
 title: Unsere Ziele
-menu: 
-  main:
-    weight: 30
-    name: Ziele
 ---
 
 {{< headline-icon icon="icon-touch.svg" color="blue" >}}

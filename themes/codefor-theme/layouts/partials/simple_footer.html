@@ -4,9 +4,11 @@
           <div class="col-24 col-sm-12 col-md-6 col-lg-6 mt-3 mt-sm-0">
             <h4 class="mb-4">Rechtliches</h4>
             <ul class="list-unstyled">
-              <li><a class="text-dark no-underline" href="/impressum">Impressum</a></li>
-              <li><a class="text-dark no-underline" href="/datenschutz">Datenschutz</a></li>
-              <li><a class="text-dark no-underline" href="/grundsaetze">Grundsätze</a></li>
+                            {{ range .Site.Menus.footer }}
+
+                              <li><a class="text-dark no-underline" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+
+                         {{ end }}
               <li class="mt-4 h6"><a rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Sofern nicht anders angegeben, sind die Inhalte und Texte dieser Webseite unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.de">Creative Commons Namensnennung 4.0 International Lizenz</a> lizenziert.</li>
             </ul>
           </div>

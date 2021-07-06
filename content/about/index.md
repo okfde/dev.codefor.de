@@ -1,10 +1,10 @@
 ---
 title: Über uns
-menu:
-  main:
-    weight: 10
-    name: Über uns
 footerHideTopMargin: true
+
+#Legacy link
+aliases:
+    - /ueber
 ---
 
 {{< headline-icon icon="icon-info.svg" >}}

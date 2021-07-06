@@ -1,9 +1,5 @@
 ---
 title: About us
-menu:
-  main:
-    weight: 60
-    name: English
 footerHideTopMargin: true
 ---
 

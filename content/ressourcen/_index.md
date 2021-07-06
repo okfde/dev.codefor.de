@@ -1,6 +1,5 @@
 ---
 title: Ressourcen
-weight: 60
 ---
 
 {{< headline-icon icon="icon-power.svg" >}}

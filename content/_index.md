@@ -20,7 +20,7 @@ Wer wir sind und was wir machen
 
 {{< home/block-123 >}}
 
-{{< button-center href="/ueber" >}}
+{{< button-center href="/about" >}}
 Über uns
 {{< /button-center >}}
 {{< /section >}}
@@ -87,7 +87,3 @@ Was bei uns passiert
 Mehr Blogartikel lesen
 {{< /button-center >}}
 {{< /section >}}
-
-
-
-

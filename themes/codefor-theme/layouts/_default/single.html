@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+{{ if .IsTranslated }}
+	{{ range .Translations }}
+		<a class="langSwitch d-flex justify-content-end" href="{{ .Permalink }}"><span class="lang-brackets red"> {{ .Language.Lang }}</span></a>
+	{{ end }}
+{{ end }}
+
 {{ .Content }}
 
 {{ end }}
