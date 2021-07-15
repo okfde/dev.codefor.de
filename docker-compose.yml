@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  hugo:
+    container_name: hugo
+    # live = 0.69.2
+    # latest tested = 0.79.1
+    image: peaceiris/hugo:v0.69.2
+    ports:
+      - 1313:1313
+    volumes:
+      - ${PWD}:/src
+    command:
+      - server
+      - --bind=0.0.0.0
+      - --buildDrafts
