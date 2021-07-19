@@ -1,15 +1,13 @@
 ---
 layout: project
 lab: [wuppertal] #needed for Aggregation on Lab-Page
-imgname: wuppertal/talradparken.png
+imgname: talradparken.jpg
 title: Talradparken
-status: Finished
+status: Abgeschlossen
 
 links:
-
 - url: http://talradparken.de
   name: Website
-
 - url: https://github.com/Opendatal/kartenkarte.org
   name: Code
 
@@ -20,8 +18,6 @@ collaborators:
 
 tags:
 - Mobilität
-
-
 ---
 
-Talradparken zeigt, wo man sicher sein Fahrrad in Wuppertal anschließen kann.
+Talradparken zeigt basierend auf OpenStreetMap Daten, wo man sicher sein Fahrrad in Wuppertal anschließen kann.

@@ -1,9 +1,9 @@
 ---
 layout: project
 lab: [wuppertal] #needed for Aggregation on Lab-Page
-imgname: wuppertal/Talso.PNG
+imgname: Talso.png
 title: Tal, so?
-status: Fertig
+status: POC
 
 links:
 - url: http://www.tal.so/
